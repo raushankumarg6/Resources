@@ -1,0 +1,17 @@
+Step to host the react-based app
+
+1.create project in firebase : add project in fb console
+2.npm install firebase and npm install -g firebase-tools
+3.firebase login 
+4.Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? Yes
+5.Accept authentication process
+6.firebase init
+7.Select the option: by go to that option & press space then enter : Hosting: 
+  Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+8.Select  Use an existing project
+9.What do you want to use as your public directory? (public): build
+10.Configure as a single-page app (rewrite all urls to /index.html)? (y/N): y
+   Confirmation msg: +  Firebase initialization complete!
+11.Set up automatic builds and deploys with GitHub? No
+12.npm run build
+13.firebase deploy
